@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.049f55ca.css",
+    "main.js": "/static/js/main.c012e367.js",
+    "static/media/imgHeader.png": "/static/media/imgHeader.ae8650ac6251e1eec859.png",
+    "static/media/bg.jpg": "/static/media/bg.548adb30bfb717627a33.jpg",
+    "static/media/BhanuResume.pdf": "/static/media/BhanuResume.504ba794df54c0fcad9e.pdf",
+    "index.html": "/index.html",
+    "main.049f55ca.css.map": "/static/css/main.049f55ca.css.map",
+    "main.c012e367.js.map": "/static/js/main.c012e367.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049f55ca.css",
+    "static/js/main.c012e367.js"
+  ]
+}
