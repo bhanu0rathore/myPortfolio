@@ -1,26 +1,10 @@
-import React ,{useState} from 'react';
+import React from 'react';
 import ProgressBar from './progress';
 import Pdf from '../customLoader/BhanuResume.pdf';
 
 
 const Resume = () => {
-    
-    // const handleDownload = () => {
-    //     const fileUrl = './images/myCV.pdf'; // Replace with the actual file path or URL
-    
-    //     // Create a temporary anchor element
-    //     const downloadLink = document.createElement('a');
-    //     downloadLink.href = fileUrl;
-    //     downloadLink.setAttribute('download', 'myCV.pdf');
-    //     downloadLink.style.display = 'none'; // Hide the anchor element
-    
-    //     // Add the anchor to the DOM and trigger a click event
-    //     document.body.appendChild(downloadLink);
-    //     downloadLink.click();
-    
-    //     // Clean up the anchor element after the download
-    //     document.body.removeChild(downloadLink);
-    //   };
+   
 
   return (
     <div className='container'>
@@ -151,7 +135,7 @@ const Resume = () => {
     </div>
 
             <div className='col-5 position-relative'>
-                <a target='_blank' href={Pdf} ><button className=' rsum-dwnld-btn  p-2'  > <span><i class="fa-solid fa-download"></i></span> Download CV</button></a>
+                <a target='_blank' rel="noreferrer" href={Pdf} ><button className=' rsum-dwnld-btn  p-2'  > <span><i class="fa-solid fa-download"></i></span> Download CV</button></a>
                 <div className='skill-icon-box'>
 
                     <div className='skill-icn-inrBx skill-icn-One'>

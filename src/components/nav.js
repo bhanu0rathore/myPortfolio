@@ -34,10 +34,10 @@ const nav = () => {
 
       <div className='col-2 '>
         <div className='socialIcon'>
-            <Link href="#"><i className="fa-brands fa-facebook-f"></i></Link>
-            <Link href="#"><i className="fa-brands fa-twitter"></i></Link>
-            <Link ><a href='https://www.instagram.com/the_bhanurathore_officiall' target='_block'><i className="fa-brands fa-instagram"></i></a></Link>
-            <Link ><a href='https://www.linkedin.com/in/bhanu-rathore-929a78218' target='_block'><i className="fa-brands fa-linkedin-in"></i></a></Link>
+            <span className='scsl-mn'><a href='https://www.facebook.com/' target='_block'><i className="fa-brands fa-facebook-f"></i></a></span>
+            <span className='scsl-mn'><a href='https://www.twitter.com' target='_block'><i className="fa-brands fa-twitter"></i></a></span>
+            <span className='scsl-mn' ><a href='https://www.instagram.com/the_bhanurathore_officiall' target='_block'><i className="fa-brands fa-instagram"></i></a></span>
+            <span className='scsl-mn' ><a href='https://www.linkedin.com/in/bhanu-rathore-929a78218' target='_block'><i className="fa-brands fa-linkedin-in"></i></a></span>
         </div>
       </div>
 

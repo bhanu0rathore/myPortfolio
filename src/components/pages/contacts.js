@@ -40,7 +40,7 @@ const Contacts = () => {
           
           <div className='main-Map-pge-bx'>
               
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.3554189874244!2d75.7263142!3d26.8922131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4b9cfecc2ff%3A0xb39122f930d6272d!2s60%2C%20Jagdamba%20Nagar%20Rd%2C%20Dhawas%2C%20Vikash%20Nagar-D%2C%20Heerapura%2C%20Girdharipura%2C%20Jaipur%2C%20Rajasthan%20302034!5e0!3m2!1sen!2sin!4v1689595284202!5m2!1sen!2sin" width="520" height="360"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.3554189874244!2d75.7263142!3d26.8922131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4b9cfecc2ff%3A0xb39122f930d6272d!2s60%2C%20Jagdamba%20Nagar%20Rd%2C%20Dhawas%2C%20Vikash%20Nagar-D%2C%20Heerapura%2C%20Girdharipura%2C%20Jaipur%2C%20Rajasthan%20302034!5e0!3m2!1sen!2sin!4v1689595284202!5m2!1sen!2sin" width="520" height="360" title="Embedded Map"  allowFullScreen loading="lazy" ></iframe>
               
           </div>
 
