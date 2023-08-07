@@ -5,7 +5,6 @@ import './App.css';
 import { Routes, Route } from "react-router-dom"
 import About from './components/pages/about';
 import Resume from './components/pages/resume';
-import Signature from './components/Signature';
 import Contacts from './components/pages/contacts';
 import CustomLoader from './components/customLoader/CustomLoader';
 
