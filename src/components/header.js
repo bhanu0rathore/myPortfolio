@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import MainImg from '../images/imgHeader.png';
 
 const Header = () => {
-
   useEffect(() => {
     Aos.init();
   
