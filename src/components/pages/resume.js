@@ -151,9 +151,8 @@ const Resume = () => {
     </div>
 
             <div className='col-5 position-relative'>
-                <a target='_blank' href={Pdf} rel="noreferrer" ><button className=' rsum-dwnld-btn  p-2'  > <span><i className="fa-solid fa-download"></i></span> Download CV</button></a>
+                <a target='_blank' href={Pdf}  rel="noopener noreferrer" ><button className=' rsum-dwnld-btn  p-2'  > <span><i className="fa-solid fa-download"></i></span> Download CV</button></a>
                 <div className='skill-icon-box'>
-
                     <div className='skill-icn-inrBx skill-icn-One'>
                         <i className="fa-brands fa-html5" data-aos="zoom-in-down"></i>
                     </div>
