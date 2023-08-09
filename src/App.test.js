@@ -1,17 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './App'; 
+import React from 'react';
+import '@testing-library/jest-dom/extend-expect';
 
-test('renders header text', () => {
-  render(
-    <Router>
-      <App />
-    </Router>
-  );
-
-  const headerTextRegex = /I'm a\s+Frontend\s+Developer\./;
-  const headerText = screen.getByText(headerTextRegex);
-  expect(headerText).toBeInTheDocument();
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });
-
